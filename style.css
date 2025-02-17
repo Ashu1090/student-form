@@ -1,0 +1,65 @@
+
+root{
+    --colo:rgba(240, 248, 255, 0.575);
+}   
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; background: linear-gradient(yellowgreen,skyblue);
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+    
+select{
+    background-color: var(--colo);
+}
+
+input{
+    background-color: rgba(240, 248, 255, 0.575);
+    box-shadow: 2px 2px black 2px;
+    outline: none;
+    border: none;
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec{
+    margin-top: 25px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    width: 100%;
+    background-color: aqua;
+}
+
+#two td{
+    width: 150px;
+
+}
+
+#btn{
+    background-color: red;
+}
+
+.font{
+    font-weight: 100;
+}
+
+#one td:first-child{
+ font-weight: bold;
+}
+
+
+#two tr:first-child{
+    font-weight: bold;
+}

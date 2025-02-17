@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="top">
+        
+        <h1>student Form</h1>
+    <form action="">
+       
+        <table id="one" border="3">
+            
+            <tr> <td>Name</td> <td><input class="input1" type="text" required></td> </tr>
+            <tr> <td>Age</td> <td><input class="input2" type="text" required></td> </tr>
+            <tr> <td>Gender </td>  <td>
+                Male <input id="male" class="input3" name="gender" type="radio" value="Male">
+                Female <input id="female" class="input3" name="gender" type="radio" value="Female">
+            </td>
+                
+               
+            <tr> <td>Course</td> 
+                <td>
+                <select class="input4" >
+                    <option>Javascript</option>
+                    <option>Python</option>
+                    <option>Datascience</option>
+                </select>
+            </td>
+            </tr>
+            <tr> <td>Email</td> <td><input class="input5" type="email" required></td> </tr>
+            <tr><td colspan="2"><button  class="bun" onclick="add(event)"  >Save</button></td></tr>
+
+        </table></div>
+
+        <div class="sec">
+        <table id="two" border="3">
+            <tr> <td>Name</td> <td>Age</td> <td>Gender</td>  <td>course</td> <td>Email</td> <td>Action</td></tr>
+         <!--  <tr> <td>Ashiq</td> <td>20</td> <td>male</td> <td>Javascript</td> <td>123@two.com</td> <td><button onclick="clearitem(event)" id="btn">delete</button></td></tr> -->
+        
+           </table>
+     
+    </form></div>
+<script src="studentform.js"></script>
+</body>
+</html>
